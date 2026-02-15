@@ -56,7 +56,7 @@ Clean code structure
 
 🌐 Live Demo
 
-([Add your GitHub Pages link here](https://asif1101javed-rgb.github.io/SHOP-NOW/))
+(https://asif1101javed-rgb.github.io/SHOP-NOW/)
 
 👤 Author
 
