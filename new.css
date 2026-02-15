@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 0 to 500 Orange */
+/* 300 to 500 Red */
+/* 501 to 800// Yellow */
+/* 800 to above Pink */
+
+@media only screen and (max-width: 300px){
+    body{
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 301px) and (max-width: 500px){
+    body{
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    body{
+        background-color: pink;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1100px){
+    body{
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1500px){
+    body{
+        background-color: green;
+    }
+}
+
+.container{
+    width: 90%;
+    border: 2px solid yellow;
+    margin: 20px auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    display: flex;
+    /* width: 300px; */
+    border: 2px solid red;
+    height: 300px;
+    background-color: white;
+    margin: 8px;
+    border-radius: 40px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+@media only screen and (max-width: 600px){
+    .container .card{
+        width: 100%;
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+    .container .card{
+        width: 100%;
+        background-color: yellow;
+    }
+}
+
+/* Between 768 to 990 */
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    .container .card{
+        width: 47%;
+        background-color: pink;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1100px){
+    .container .card{
+        width: 31%;
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1500px){
+    .container .card{
+        width: 21%;
+        background-color: green;
+    }
+}
+
+
+
+/* Ecom Card */
+/* 4 card */
+/* 3 card */
+/* 2 card */
+/* Mobile 1 card */

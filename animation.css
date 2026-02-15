@@ -1,0 +1,16 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    transition-property: width, height, background-color;
+    transition-duration: 2s, 2s, 5s;
+    /* transition-delay: 2s; */
+    transition-timing-function: ease;
+}
+
+.box:hover{
+    width: 400px;
+    height: 200px;
+    background-color: yellow;
+    transform: translateY(10px);
+}
