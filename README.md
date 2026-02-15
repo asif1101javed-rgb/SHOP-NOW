@@ -56,11 +56,9 @@ Clean code structure
 
 🌐 Live Demo
 
-(Add your GitHub Pages link here)
+([Add your GitHub Pages link here](https://asif1101javed-rgb.github.io/SHOP-NOW/))
 
 👤 Author
 
 Asif Ali
 Front-End Developer
-
-Agar chaho to main aap ke liye GitHub Topics, Live Demo setup steps, ya attractive README design with badges bhi bana doon 🔥
